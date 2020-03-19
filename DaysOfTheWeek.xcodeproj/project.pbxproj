@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDBBB7F2423D9A20091BF42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBB7E2423D9A20091BF42 /* AppDelegate.m */; };
+		ACDBBB822423D9A20091BF42 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBB812423D9A20091BF42 /* SceneDelegate.m */; };
+		ACDBBB882423D9A20091BF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDBBB862423D9A20091BF42 /* Main.storyboard */; };
+		ACDBBB8A2423D9A50091BF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDBBB892423D9A50091BF42 /* Assets.xcassets */; };
+		ACDBBB8D2423D9A50091BF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDBBB8B2423D9A50091BF42 /* LaunchScreen.storyboard */; };
+		ACDBBB902423D9A50091BF42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBB8F2423D9A50091BF42 /* main.m */; };
+		ACDBBB9A2423DAA70091BF42 /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBB992423DAA70091BF42 /* Day.m */; };
+		ACDBBB9E2423DFAB0091BF42 /* DayController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBB9D2423DFAB0091BF42 /* DayController.m */; };
+		ACDBBBA22423E3310091BF42 /* DayListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBBA12423E3310091BF42 /* DayListTableViewController.m */; };
+		ACDBBBA52423E5A20091BF42 /* DayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDBBBA42423E5A20091BF42 /* DayDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACDBBB7A2423D9A20091BF42 /* DaysOfTheWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOfTheWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDBBB7D2423D9A20091BF42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACDBBB7E2423D9A20091BF42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACDBBB802423D9A20091BF42 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ACDBBB812423D9A20091BF42 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ACDBBB872423D9A20091BF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDBBB892423D9A50091BF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDBBB8C2423D9A50091BF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDBBB8E2423D9A50091BF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDBBB8F2423D9A50091BF42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDBBB982423DAA70091BF42 /* Day.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		ACDBBB992423DAA70091BF42 /* Day.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		ACDBBB9C2423DFAB0091BF42 /* DayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayController.h; sourceTree = "<group>"; };
+		ACDBBB9D2423DFAB0091BF42 /* DayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayController.m; sourceTree = "<group>"; };
+		ACDBBBA02423E3310091BF42 /* DayListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayListTableViewController.h; sourceTree = "<group>"; };
+		ACDBBBA12423E3310091BF42 /* DayListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayListTableViewController.m; sourceTree = "<group>"; };
+		ACDBBBA32423E5A20091BF42 /* DayDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayDetailViewController.h; sourceTree = "<group>"; };
+		ACDBBBA42423E5A20091BF42 /* DayDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDBBB772423D9A20091BF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDBBB712423D9A20091BF42 = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB7C2423D9A20091BF42 /* DaysOfTheWeek */,
+				ACDBBB7B2423D9A20091BF42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDBBB7B2423D9A20091BF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB7A2423D9A20091BF42 /* DaysOfTheWeek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDBBB7C2423D9A20091BF42 /* DaysOfTheWeek */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB9F2423E22A0091BF42 /* View Controllers */,
+				ACDBBB9B2423DF800091BF42 /* Model Controller */,
+				ACDBBB972423DA6C0091BF42 /* Model */,
+				ACDBBB862423D9A20091BF42 /* Main.storyboard */,
+				ACDBBB962423DA4F0091BF42 /* Resources */,
+			);
+			path = DaysOfTheWeek;
+			sourceTree = "<group>";
+		};
+		ACDBBB962423DA4F0091BF42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB7D2423D9A20091BF42 /* AppDelegate.h */,
+				ACDBBB7E2423D9A20091BF42 /* AppDelegate.m */,
+				ACDBBB802423D9A20091BF42 /* SceneDelegate.h */,
+				ACDBBB812423D9A20091BF42 /* SceneDelegate.m */,
+				ACDBBB892423D9A50091BF42 /* Assets.xcassets */,
+				ACDBBB8B2423D9A50091BF42 /* LaunchScreen.storyboard */,
+				ACDBBB8E2423D9A50091BF42 /* Info.plist */,
+				ACDBBB8F2423D9A50091BF42 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACDBBB972423DA6C0091BF42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB982423DAA70091BF42 /* Day.h */,
+				ACDBBB992423DAA70091BF42 /* Day.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACDBBB9B2423DF800091BF42 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBB9C2423DFAB0091BF42 /* DayController.h */,
+				ACDBBB9D2423DFAB0091BF42 /* DayController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		ACDBBB9F2423E22A0091BF42 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACDBBBA02423E3310091BF42 /* DayListTableViewController.h */,
+				ACDBBBA12423E3310091BF42 /* DayListTableViewController.m */,
+				ACDBBBA32423E5A20091BF42 /* DayDetailViewController.h */,
+				ACDBBBA42423E5A20091BF42 /* DayDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDBBB792423D9A20091BF42 /* DaysOfTheWeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDBBB932423D9A50091BF42 /* Build configuration list for PBXNativeTarget "DaysOfTheWeek" */;
+			buildPhases = (
+				ACDBBB762423D9A20091BF42 /* Sources */,
+				ACDBBB772423D9A20091BF42 /* Frameworks */,
+				ACDBBB782423D9A20091BF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysOfTheWeek;
+			productName = DaysOfTheWeek;
+			productReference = ACDBBB7A2423D9A20091BF42 /* DaysOfTheWeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDBBB722423D9A20091BF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Theo Vora";
+				TargetAttributes = {
+					ACDBBB792423D9A20091BF42 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ACDBBB752423D9A20091BF42 /* Build configuration list for PBXProject "DaysOfTheWeek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDBBB712423D9A20091BF42;
+			productRefGroup = ACDBBB7B2423D9A20091BF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDBBB792423D9A20091BF42 /* DaysOfTheWeek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDBBB782423D9A20091BF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBBB8D2423D9A50091BF42 /* LaunchScreen.storyboard in Resources */,
+				ACDBBB8A2423D9A50091BF42 /* Assets.xcassets in Resources */,
+				ACDBBB882423D9A20091BF42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDBBB762423D9A20091BF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDBBBA52423E5A20091BF42 /* DayDetailViewController.m in Sources */,
+				ACDBBBA22423E3310091BF42 /* DayListTableViewController.m in Sources */,
+				ACDBBB7F2423D9A20091BF42 /* AppDelegate.m in Sources */,
+				ACDBBB902423D9A50091BF42 /* main.m in Sources */,
+				ACDBBB9A2423DAA70091BF42 /* Day.m in Sources */,
+				ACDBBB822423D9A20091BF42 /* SceneDelegate.m in Sources */,
+				ACDBBB9E2423DFAB0091BF42 /* DayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDBBB862423D9A20091BF42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDBBB872423D9A20091BF42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDBBB8B2423D9A50091BF42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDBBB8C2423D9A50091BF42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDBBB912423D9A50091BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDBBB922423D9A50091BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDBBB942423D9A50091BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DaysOfTheWeek/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poundsand.DaysOfTheWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDBBB952423D9A50091BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/DaysOfTheWeek/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poundsand.DaysOfTheWeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDBBB752423D9A20091BF42 /* Build configuration list for PBXProject "DaysOfTheWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBBB912423D9A50091BF42 /* Debug */,
+				ACDBBB922423D9A50091BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDBBB932423D9A50091BF42 /* Build configuration list for PBXNativeTarget "DaysOfTheWeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDBBB942423D9A50091BF42 /* Debug */,
+				ACDBBB952423D9A50091BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDBBB722423D9A20091BF42 /* Project object */;
+}
